@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* custom.css */
+.Toastify__progress-bar {
+    @apply bg-gradient-to-r from-green-400 to-blue-500; /* Tailwind gradient */
+  }
+  
+  .Toastify__toast {
+    @apply bg-gradient-to-r from-black to-100% to-slate-900;
+  }
